@@ -3,7 +3,8 @@ package executorframework.lifecycle;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 /*
- * Create and execute threads with executable service
+ * Create and execute threads with executorservice
+ * interrupt and stop all the threads in executorservice
  */
 public class ForceShutDownThreads {
 	
