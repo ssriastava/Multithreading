@@ -5,7 +5,8 @@ import java.util.concurrent.Executors;
 
 /*
  * Trying to invoke new thread after executorservice is shutdown
- * This will throw exception java.util.concurrent.RejectedExecutionException
+ * This will throw exception java.util.concurrent.RejectedExecutionException on main thread
+ * Other threads will continue executing independently
  */
 
 public class ExecuteThreadAfterShutdown {
