@@ -2,7 +2,7 @@
  Java Multithreading Practice Questions
 
 1. Program that uses an Executor to execute a Runnable task, it must print "Hello from Executor!" followed by the current thread name. Class: [executorframework.SimpleTaskExecution](/src/executorframework/SimpleTaskExecution.java)
-2. Create a task using Executor that simulates incrementing a shared counter 10 times, with each increment happening in a separate thread managed by the executor. Class: executorframework.ThreadCounter
+2. Create a task using Executor that simulates incrementing a shared counter 10 times, with each increment happening in a separate thread managed by the executor. Class: [executorframework.ThreadCounter](/src/executorframework/ThreadCounter.java)
 3. Program that creates a fixed thread pool of size 3 using ExecutorService. Submit 10 tasks to it. Class: executorframework.lifecycle.ManageThreads
 4. Program using ExecutorService to submit a set of tasks, then gracefully shut down the executor after all tasks are complete, ensuring no new tasks are accepted after shutdown is initiated. Class: executorframework.lifecycle.ManageThreads
 5. In the last program try to execute new thread after the executorservice is shutdown. Class: executorframework.lifecycle.ExecuteThreadAfterShutdown
